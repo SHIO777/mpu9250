@@ -1,0 +1,16 @@
+Wiringpi installation to raspberry pi
+
+Reference: https://www.fabshop.jp/【-第28回-】wiringpi2よりwiringpiの方が新しかった！/
+
+```
+mkdir mpu9250
+cd mpu9250
+python3 -m venv venv
+. venv/bin/activate
+sudo pip3 install --upgrade pip
+pip3 install wiringpi
+python		# launch python interpreter
+>>> import wiringpi
+>>>コメント:ここでNo module named errorが出なければ正しくインストールされている
+>>>exit()
+
